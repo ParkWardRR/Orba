@@ -2,7 +2,7 @@
 
 # Running a testnet node
 
-sudo apt-get install build-essential cmake libssl-dev pkg-config git
+sudo apt-get install build-essential cmake libssl-dev pkg-config git -y
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 source $HOME/.cargo/env
 
