@@ -20,3 +20,4 @@ source ~/.profile
 
 npm install -g @stacks/cli
 
+stx make_keychain -t > cli_keychain.json
